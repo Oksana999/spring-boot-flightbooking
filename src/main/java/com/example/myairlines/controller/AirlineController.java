@@ -30,6 +30,7 @@ public class AirlineController {
        Airline  airline = airlineService.createAirline(name);
 //        Airline airline = new Airline();
 //        airline.setName(name);
+        //adding line for testing
     //   airlineService.createAirline(airline);
       model.addAttribute("airline", airline);
         return  "addAirline";
