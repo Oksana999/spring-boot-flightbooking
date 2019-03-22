@@ -31,6 +31,8 @@ public class AirlineController {
 //        Airline airline = new Airline();
 //        airline.setName(name);
         //adding line for testing
+
+        //adding new commit
     //   airlineService.createAirline(airline);
       model.addAttribute("airline", airline);
         return  "addAirline";
